@@ -1,0 +1,16 @@
+apiVersion: bitnami.com/v1alpha1
+kind: SealedSecret
+metadata:
+  creationTimestamp: null
+  name: sealed-test
+  namespace: test-namespace-flux
+spec:
+  encryptedData:
+    username: AQBZ2RuU/SLDLJsxfXGWSDjodBqezxsFH3Kp2/nqJ4YhqM0c4Ikmd1T2yHL0DJYaKuN/FitOzs1Ip/UNy+9YPQMiW4OOsTQAgdt4TtxWSUVOeiddprTl8lc8W9Kqax87r8jPZSbYM0IKQ+lI4t95R1EJMzKlTTsM0to11kv5KMTd1TnzCJwcJTIoXWrjkdlPjFSJ+HSNPYrAju712d8uWNWgbXm8+3eVY7KIqgTFi22Z1n8zKL9y4i6fJG5Pj93inWzJrWxbv7PX6YTUBrVY6chh/2gF/tMd6rhlZ6X750VNaUv5lewcorgBAaJwgphyFUTYjKGf2kCj2Q4NKqCBTgVJs3L04Jubnz1+aLkO37JIIR3zKzKledk+UtXvFsNDuw==
+  template:
+    metadata:
+      creationTimestamp: null
+      name: sealed-test
+      namespace: test-namespace-flux
+    type: Opaque
+status: {}
